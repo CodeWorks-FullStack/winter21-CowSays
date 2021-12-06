@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main {
+  flex-grow: 1;
+}
+
+.animal-image {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
